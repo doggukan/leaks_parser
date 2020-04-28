@@ -12,21 +12,15 @@ class LineParser:
 
     @staticmethod    
     def md5(s):
-        m = hashlib.md5()
-        m.update(s)
-        return binascii.hexlify(m.digest())
+      
 
     @staticmethod    
     def sha1(s):
-        m = hashlib.sha1()
-        m.update(s)
-        return binascii.hexlify(m.digest())
+     
 
     @staticmethod    
     def sha256(s):
-        m = hashlib.sha256()
-        m.update(s)
-        return binascii.hexlify(m.digest())
+
 
     @staticmethod
     def parsesimplelinebyseparator(s, sep, sepname):
