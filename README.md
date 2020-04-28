@@ -4,6 +4,8 @@ Parser for data dumps Collection #1 / Collection #2-5
 
 ## Description
 
+###REMOVED HASHING FUNCTIONS TO SAVE SPACE
+
 This python script is a parser for the latest data dumps collections #1, #2-5, Antipublic #1 and Antipublic MYR & ZABUGOR #2.
 
 It will parse text files from data dumps and will create a sqlite database.
